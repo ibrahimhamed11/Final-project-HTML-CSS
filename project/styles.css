@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background: #f7f7f7;
+    color: #545454;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background: #373b44;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 25px;
+}
+
+.navbar .inner_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .logo a {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.navbar .logo img {
+    width: 70px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.navbar .logo a span {
+    color: #dbdcdb;
+}
+
+.navbar .menu ul {
+    display: flex;
+}
+
+.navbar .menu ul li a {
+    width: 120px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 5px;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 5px;
+}
+
+.navbar .menu ul li:last-child a {
+    margin-right: 20px;
+}
+
+.navbar .menu ul li a:hover,
+.navbar .menu ul li a.active {
+    background: #ff7361;
+}
+
+@media (max-width: 728px) {
+    .navbar {
+        height: 60px;
+    }
+    .navbar .inner_navbar {
+        flex-direction: row;
+    }
+    .navbar .menu ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: block;
+        background: #090f1b;
+        width: 100%;
+    }
+    .navbar .menu ul li {
+        padding: 10px;
+    }
+    .navbar .menu ul li a {
+        width: 100%;
+        padding: 12px;
+    }
+    .navbar .hamburger {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+    .navbar .menu {
+        display: none;
+    }
+    .navbar .menu.active {
+        display: block;
+    }
+}
+
+.cott {
+    margin-top: 71px;
+    background: #23c265;
+    height: auto;
+    scroll-margin: 0;
+    padding: 25px;
+    padding-top: 25px;
+}
+
+.item1 {
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    min-width: 30%;
+    float: left right;
+    margin-left: 30px;
+}
+
+.item2 {
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    min-width: 30%;
+    float: left right;
+    margin-left: 30px;
+}
+
+.email {
+    background: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    min-width: 30%;
+    float: left right;
+    margin-left: 30px;
+    width: auto;
+    border-width: 0;
+    font-size: 14px;
+    font-weight: 5px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: 30px;
+    border-width: 0;
+    background-color: #14ac71;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 5px;
+}
+
+.vid {
+    margin-left: 70%;
+    margin-top: -15%;
+    border: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.cards.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards ul li {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    margin: 0 75px;
+    color: rgba(0, 0, 0, 0.632);
+}
+
+li.b {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    color: #111;
+    font-size: 20px;
+    font-weight: 570;
+}
+
+.icon {
+    margin-left: -60px;
+    margin-bottom: -60px;
+}
+
+.headline {
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 12%;
+}
+
+.title1 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: left;
+}
+
+.container {
+    background: #ff7361;
+    height: 600px;
+}
+
+.para {
+    color: #fff;
+    text-align: left;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.ba {
+    padding-top: 0;
+    background-color: #ff7361;
+    margin-top: 0;
+    margin-left: 50%;
+    height: 222px;
+}
