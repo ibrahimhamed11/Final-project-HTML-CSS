@@ -222,24 +222,27 @@ li.b {
     padding-top: 50px;
     font-size: 40px;
     text-align: left;
+    padding-bottom: 50px;
 }
 
 .container {
     background: #ff7361;
-    height: 600px;
+    height: 500px;
 }
 
-.para {
+span.para {
     color: #fff;
     text-align: left;
-    padding-top: 30px;
     font-size: 30px;
 }
 
 .ba {
     padding-top: 0;
+    padding-bottom: -20%;
     background-color: #ff7361;
     margin-top: 0;
-    margin-left: 50%;
-    height: 222px;
+    margin-left: 55%;
+    height: 350px;
+    width: 650px;
+    margin-top: -300px;
 }
