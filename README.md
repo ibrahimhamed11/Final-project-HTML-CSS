@@ -1,5 +1,4 @@
-# Final-project-html-css
+# Final Project in html-css course in iTi Aswan
 
 # Ibrahim Hamed
 
-# Final Project in html-css course in iTi Aswan
