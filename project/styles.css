@@ -439,10 +439,10 @@
                     
                     .blog-content::after {
                         position: absolute;
-                        height: 1px;
+                        height: 2px;
                         width: 67%;
                         left: 40px;
-                        top: 75%;
+                        top: 76%;
                         background-color: #dfdede;
                         content: "";
                     }
@@ -457,12 +457,12 @@
                     
                     .blog-content .middle-side a {
                         text-decoration: none;
-                        background-color: #b01623;
+                        background-color: #070707;
                         color: white;
                         font-size: 14px;
-                        padding: 0 8px;
-                        border-radius: 6px;
-                        margin-bottom: 15px;
+                        padding: 10px 8px;
+                        border-radius: 2px;
+                        margin-bottom: 30px;
                     }
                     
                     .blog-content .middle-side {
@@ -481,7 +481,7 @@
                     }
                     
                     .blog-content .middle-side p {
-                        margin-bottom: 8px;
+                        margin-bottom: 30px;
                     }
                     
                     .blog-content .middle-side h3:last-of-type {
