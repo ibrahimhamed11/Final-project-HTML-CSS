@@ -214,6 +214,7 @@
                         font-size: 22px;
                         font-weight: 100;
                         margin-top: 70px;
+                        cursor: pointer;
                     }
                     
                     .cards {
@@ -780,8 +781,16 @@
                         border: 1px solid #dedede;
                         border-radius: 10px;
                     }
+                    /* .contact .t-left form a {
+                        background-color: #020202;
+                        color: white;
+                        width: fit-content;
+                        padding: 5px 10px;
+                        border-radius: 6px;
+                        cursor: pointer;
+                    } */
                     
-                    .contact .t-left form a {
+                    .subbtn {
                         background-color: #020202;
                         color: white;
                         width: fit-content;
